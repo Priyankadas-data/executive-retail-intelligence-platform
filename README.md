@@ -93,16 +93,6 @@ Visualizes regional business performance.
 <img width="567" height="307" alt="image" src="https://github.com/user-attachments/assets/410dc91d-8ec8-4c5d-a347-99c0d241a301" />
 
 
-⚙️ Installation
-Clone the repository:
-git clone https://github.com/yourusername/Executive-Retail-Intelligence-Platform.git
-
-Navigate to the project folder:
-cd Executive-Retail-Intelligence-Platform
-
-Install dependencies:
-pip install -r requirements.txt
-
 ▶️ Running the Application
 Move to the Streamlit application directory:
 cd streamlit_app

@@ -114,10 +114,4 @@ python -m streamlit run app.py
 Download the Sample Superstore Dataset and place it inside:
 data/raw/dataset.csv
 
-🔮 Future Enhancements
-Sales Forecasting
-Customer Segmentation
-Market Basket Analysis
-Anomaly Detection
-Real-Time Database Integration
-Automated Email Reporting
+

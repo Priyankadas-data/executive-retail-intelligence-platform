@@ -43,7 +43,7 @@ h1,h2,h3{
 # -----------------------------------------------------
 # LOAD DATA
 # -----------------------------------------------------
-df = pd.read_csv("C:\\Users\\Priyanka\\OneDrive\\Executive-Retail-Intelligence-Platform\\data\\raw\dataset.csv", encoding="latin1")
+df = pd.read_csv("../data/raw/dataset.csv", encoding="latin1")
 
 # Fix Date Parsing Error
 df["Order Date"] = pd.to_datetime(

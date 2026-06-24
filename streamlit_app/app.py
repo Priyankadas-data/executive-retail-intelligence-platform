@@ -43,7 +43,17 @@ h1,h2,h3{
 # -----------------------------------------------------
 # LOAD DATA
 # -----------------------------------------------------
-df = pd.read_csv("../data/raw/dataset.csv", encoding="latin1")
+from pathlib import Path
+import pandas as pd
+
+# Project root folder
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Dataset path
+DATA_PATH = BASE_DIR / "data" / "raw" / "dataset.csv"
+
+# Read dataset
+df = pd.read_csv(DATA_PATH, encoding="latin1")
 
 # Fix Date Parsing Error
 df["Order Date"] = pd.to_datetime(

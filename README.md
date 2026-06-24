@@ -1,4 +1,4 @@
-  **Executive Retail Intelligence Platform**
+<h1 align="center">Executive Retail Intelligence Platform</h1>
 
 📌 Project Overview
 The Executive Retail Intelligence Platform is a senior-level Business Intelligence solution designed to provide executives and decision-makers with actionable insights into retail performance.
